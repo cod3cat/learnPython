@@ -15,8 +15,13 @@ print(name, "is", age, "years old")
 print(name, "likes to eat pizza")
 print("This man's name is", name)
 
-# Gathering input from the console
+# Test 3 - Gathering input from the console
 print("----------------------")
 
-answer = input("What is your name? ")
-print("Your name is", answer)
+# answer = input("What is your name? ")
+# print("Your name is", answer)
+
+# Test - Formatted String
+current_year = 2023
+print("The current year is", current_year, ". Next year is", int(current_year) + 1)
+print(f"The current year is {current_year} and the next year is {int(current_year) + 1}")
